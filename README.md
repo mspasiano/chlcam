@@ -17,7 +17,10 @@ multiple regression model that can be selected for different specie and
 manually modified for a specie not reported in the database.
 
 ![](./screenshot/Screenshot_20201209-124301_Chlorophyll camera.jpg)
+
 ![](./screenshot/Screenshot_20201209-124320_Chlorophyll camera.jpg)
+
 ![](./screenshot/Screenshot_20201209-124338_Chlorophyll camera.jpg)
+
 ![](./screenshot/Screenshot_20201209-124402_Chlorophyll camera.jpg)
 
