@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme" parent="android:Theme" />
+
+    <style name="Theme.DefaultThemeWithTitle" parent="android:style/Theme.Light" />
+
+    <style name="Theme.DefaultTheme" parent="android:style/Theme.Light.NoTitleBar" />
+
+    <style name="LoginFormContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+</resources>

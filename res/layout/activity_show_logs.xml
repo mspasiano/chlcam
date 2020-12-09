@@ -1,0 +1,15 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="it.cnr.chlcam.ShowLogActivity" >
+
+	<TextView
+	    android:id="@+id/log"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:textAppearance="?android:attr/textAppearanceMedium"
+		android:textStyle="italic"
+		android:typeface="monospace"/>
+
+</merge>

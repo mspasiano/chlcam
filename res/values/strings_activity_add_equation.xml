@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="title_activity_equation">Equation</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_name">Name</string>
+    <string name="prompt_equation">Equation</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_save">Save</string>
+    <string name="action_save_short">Save</string>
+    <string name="action_forgot_password">Recover lost password</string>
+    <string name="login_progress_signing_in">Save in&#8230;</string>
+    <string name="error_invalid_equation">This equation is invalid</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="equation_confirmed">The equation %s is saved.</string>
+    <string name="equation_deleted">The equation %s is deleted.</string>
+    <string name="equation_protected">The equation %s is protected!</string>
+</resources>

@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+   	<item android:id="@+id/action_new_measure"
+          android:icon="@android:drawable/ic_menu_add"
+          android:title="@string/action_pick_same_image"/>
+    <item android:id="@+id/action_camera"
+          android:icon="@android:drawable/ic_menu_camera"
+          android:title="@string/action_camera"/>
+    <item android:id="@+id/action_gallery"
+          android:icon="@android:drawable/ic_menu_gallery"
+          android:title="@string/action_gallery"/>
+</menu>

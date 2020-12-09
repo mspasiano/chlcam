@@ -1,0 +1,115 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    tools:context="it.cnr.chlcam.AddEquationActivity" >
+
+    <!-- Login progress -->
+
+    <LinearLayout
+        android:id="@+id/save_status"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="@drawable/background"
+        android:visibility="gone" >
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/save_status_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/login_progress_signing_in"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+    <!-- Login form -->
+
+    <ScrollView
+        android:id="@+id/add_equation_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background" >
+
+        <LinearLayout
+            style="@style/LoginFormContainer"
+            android:orientation="vertical" >
+			
+            <RadioGroup
+                android:id="@+id/regression_model" 
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent">
+		        <RadioButton 
+		            android:id="@+id/multiple_regression_model"
+		            android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+		            android:text="@string/pref_title_multiple_regression_model"
+		            android:checked="true"/>
+		        <RadioButton
+		            android:id="@+id/single_regression_model"
+		            android:layout_width="wrap_content"
+            		android:layout_height="wrap_content" 
+		            android:text="@string/pref_title_single_regression_model"/>
+		    </RadioGroup>    
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prompt_name"
+                android:inputType="text"
+                android:maxLines="1"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/equation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prompt_equation"
+                android:imeActionId="@+id/login"
+                android:imeActionLabel="@string/action_save_short"
+                android:imeOptions="actionUnspecified"
+                android:lines="5"
+                android:gravity="top"
+    			android:singleLine="false"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="?android:attr/buttonBarStyle"
+                android:gravity="right" >
+
+                <Button
+	                android:id="@+id/delete_in_button"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+		        	android:drawableLeft="@android:drawable/ic_menu_delete"
+	                android:layout_marginTop="16dp"
+	                android:paddingLeft="32dp"
+	                android:paddingRight="32dp"
+	                android:visibility="invisible"
+	                android:text="@string/action_delete" />
+
+                <Button
+                    android:id="@+id/save_in_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+		        	android:drawableLeft="@android:drawable/ic_menu_save"
+                    android:layout_marginTop="16dp"
+                    android:paddingLeft="32dp"
+                    android:paddingRight="32dp"
+                    android:text="@string/action_save" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</merge>

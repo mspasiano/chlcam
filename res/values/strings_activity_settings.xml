@@ -1,0 +1,29 @@
+<resources>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+
+    <!-- General settings -->
+    <string name="pref_header_general">General</string>
+    <string name="pref_title_average">Average</string>
+    <string name="pref_description_average">Allow you to mediate the RGB values ​​from multiple leaves</string>
+    <string name="pref_title_chlorophyll_content">Chlorophyll content</string>
+
+    <string-array name="pref_chlorophyll_content_titles">
+        <item>None calculation</item>
+        <item>Multiple regression model</item>        
+        <item>Single regression model</item>
+    </string-array>
+    <string-array name="pref_chlorophyll_content_values">
+        <item>-1</item>
+        <item>0</item>       
+        <item>1</item>
+    </string-array>
+
+    <!-- Settings for Regression model -->
+    <string name="pref_title_multiple_regression_model">Multiple regression model</string>
+    <string name="pref_title_single_regression_model">Single regression model</string>
+    
+</resources>

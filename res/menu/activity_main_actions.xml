@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:id="@+id/action_gallery"
+          android:icon="@android:drawable/ic_menu_gallery"
+          android:title="@string/action_gallery"
+          android:showAsAction="always"/>
+     
+    <item android:id="@+id/action_camera"
+          android:icon="@android:drawable/ic_menu_camera"
+          android:title="@string/action_camera" 
+          android:showAsAction="always"/>
+     
+    <item android:id="@+id/action_settings"
+          android:icon="@android:drawable/ic_menu_manage"
+          android:title="@string/action_settings" 
+          android:showAsAction="always"/>
+    
+    <item android:id="@+id/action_gps"
+          android:icon="@android:drawable/ic_menu_mylocation"
+          android:title="@string/action_gps"
+          android:showAsAction="always" />
+    
+    <!-- Help -->
+    <item android:id="@+id/action_help"
+          android:icon="@android:drawable/ic_menu_info_details"
+          android:title="@string/action_info"
+          android:showAsAction="always"/>
+    
+    <item android:id="@+id/action_logs"
+          android:icon="@android:drawable/ic_menu_recent_history"
+          android:title="@string/action_logs"
+          android:showAsAction="collapseActionView"/>
+    
+</menu>
